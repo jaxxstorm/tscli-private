@@ -1,8 +1,6 @@
 module github.com/jaxxstorm/tscli
 
-go 1.24.0
-
-toolchain go1.24.4
+go 1.25.0
 
 require (
 	github.com/charmbracelet/fang v0.2.0
@@ -12,7 +10,7 @@ require (
 	github.com/spf13/pflag v1.0.6
 	github.com/spf13/viper v1.20.1
 	github.com/tailscale/hujson v0.0.0-20250605163823-992244df8c5a
-	golang.org/x/oauth2 v0.30.0
+	golang.org/x/oauth2 v0.36.0
 	golang.org/x/term v0.32.0
 	gopkg.in/yaml.v3 v3.0.1
 	tailscale.com/client/tailscale/v2 v2.0.0-20250616154411-35b8e02bd63e
